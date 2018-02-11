@@ -1,0 +1,60 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+ <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="ModPlayer"
+        android:inputType="textCapWords"
+        android:key="filepath"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="mod路径(sd卡起始，支持“/”)" />
+
+  <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="0"
+        android:inputType="number"
+        android:key="delay"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="循环间隔(单位毫秒，建议不超过500)" />
+  
+   <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="#4CAF50"
+        android:inputType="textCapWords"
+        android:key="barcolor"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="状态栏颜色" />
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="#388E3C"
+        android:inputType="textCapWords"
+        android:key="bgcolor"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="背景颜色" />
+     <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="#388E3C"
+        android:inputType="textCapWords"
+        android:key="listbgcolor"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="列表背景颜色" />
+          <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="#8BC34A"
+        android:inputType="textCapWords"
+        android:key="btnbgcolor"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="按钮背景颜色" />
+
+</PreferenceScreen>

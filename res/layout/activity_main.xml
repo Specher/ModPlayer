@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.specher.modplayer.MainActivity"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="4"
+        android:layout_height="0dp"
+        android:orientation="vertical" 
+        android:layout_margin="5dp"
+        >
+
+            	<android.support.v4.view.ViewPager
+	    android:id="@+id/viewpager1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" />
+
+        
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button_open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+           
+          android:layout_margin="2dp"
+            android:text="打开" />
+
+        <Button
+            android:id="@+id/button_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_weight="1"
+           
+              android:layout_margin="2dp"
+            android:text="播放" />
+
+        <Button
+            android:id="@+id/button_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:layout_margin="2dp"
+            
+            android:text="停止" />
+
+        <CheckBox
+            android:id="@+id/checkBox_loop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        
+            android:text="洗脑循环"
+            android:layout_margin="2dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        
+         >
+
+	<android.support.v4.view.ViewPager
+	    android:id="@+id/viewpager"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
